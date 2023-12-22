@@ -65,6 +65,7 @@ const Banners = () => {
           position: toast.POSITION.TOP_CENTER,
         });
         setModalShow(false);
+        getProducts();
       } catch (error) {
         console.log(error);
       }
